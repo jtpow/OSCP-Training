@@ -11,3 +11,6 @@ gcc [programName].c -o programName
 Update Repository:
 cd /etc/apt | cat sources.list
 
+Once exploit is compliled use grep to search for exploit version:
+./exploit | grep "apache" | grep "1.2.3"
+
