@@ -1,0 +1,13 @@
+msfconsole
+searchsploit
+searchsploit -m [ID] - this pulls the  exploit into the PWD
+
+Execute Perl Code:
+code.p -p
+
+Compile C:
+gcc [programName].c -o programName
+
+Update Repository:
+cd /etc/apt | cat sources.list
+
