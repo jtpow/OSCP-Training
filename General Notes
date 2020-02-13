@@ -1,3 +1,5 @@
+sudo netdiscover -r <IP+CIDR> -i <interface>
+
 msfconsole
 searchsploit
 searchsploit -m [ID] - this pulls the  exploit into the PWD
