@@ -1,4 +1,4 @@
-sudo netdiscover -r <IP+CIDR> -i <interface>
+sudo netdiscover 
 
 msfconsole
 searchsploit
