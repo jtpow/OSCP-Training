@@ -1,22 +1,30 @@
 Oracle VM Setup:
 Kali and Target Machine 1st VBox Adapter Set to Attached to: 'Host-Only Adapter' > Name: 'Virtual Box Host-Only Ethernet Adapater'
-Setup a 2nd adapter and set Attached to: NAT for the Kali box only! This alow
+Setup a 2nd adapter and set Attached to: NAT for the Kali box only! This allows outsides internet access.
 
-sudo netdiscover 
+#######
+sudo netdiscover
+nmap <IP>
+nmap <ip> -sV -O [enumerate services, OS]
 
+#######
 msfconsole
 searchsploit
 searchsploit -m [ID] - this pulls the  exploit into the PWD
 
+#######
 Execute Perl Code:
 code.p -p
 
+#######
 Compile C:
 gcc [programName].c -o programName
 
+######
 Update Repository:
 cd /etc/apt | cat sources.list
 
+######
 Once exploit is compliled use grep to search for exploit version:
 ./exploit | grep "apache" | grep "1.2.3"
 
