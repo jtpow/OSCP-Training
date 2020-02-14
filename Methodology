@@ -1,3 +1,0 @@
-sudo netdiscover
-nmap <IP>
-nmap <ip> -sV -O [enumerate services, OS]
